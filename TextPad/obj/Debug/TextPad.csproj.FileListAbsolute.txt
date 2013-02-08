@@ -1,0 +1,26 @@
+c:\users\shahril\documents\visual studio 2012\Projects\TextPad\TextPad\bin\Debug\TextPad.exe.config
+c:\users\shahril\documents\visual studio 2012\Projects\TextPad\TextPad\bin\Debug\TextPad.exe
+c:\users\shahril\documents\visual studio 2012\Projects\TextPad\TextPad\bin\Debug\TextPad.pdb
+c:\users\shahril\documents\visual studio 2012\Projects\TextPad\TextPad\obj\Debug\TextPad.csprojResolveAssemblyReference.cache
+c:\users\shahril\documents\visual studio 2012\Projects\TextPad\TextPad\obj\Debug\TextPad.Form1.resources
+c:\users\shahril\documents\visual studio 2012\Projects\TextPad\TextPad\obj\Debug\TextPad.Properties.Resources.resources
+c:\users\shahril\documents\visual studio 2012\Projects\TextPad\TextPad\obj\Debug\TextPad.csproj.GenerateResource.Cache
+c:\users\shahril\documents\visual studio 2012\Projects\TextPad\TextPad\obj\Debug\TextPad.exe
+c:\users\shahril\documents\visual studio 2012\Projects\TextPad\TextPad\obj\Debug\TextPad.pdb
+C:\Users\Shahril\documents\visual studio 2012\Projects\TextPad\TextPad\bin\Debug\TextPad.exe.manifest
+C:\Users\Shahril\documents\visual studio 2012\Projects\TextPad\TextPad\bin\Debug\TextPad.application
+C:\Users\Shahril\documents\visual studio 2012\Projects\TextPad\TextPad\obj\Debug\TextPad.exe.manifest
+C:\Users\Shahril\documents\visual studio 2012\Projects\TextPad\TextPad\obj\Debug\TextPad.application
+C:\Users\Shahril\Desktop\Temp\c# projek\TextPad\TextPad\bin\Debug\TextPad.exe.config
+C:\Users\Shahril\Desktop\Temp\c# projek\TextPad\TextPad\obj\Debug\TextPad.exe
+C:\Users\Shahril\Desktop\Temp\c# projek\TextPad\TextPad\obj\Debug\TextPad.pdb
+C:\Users\Shahril\Desktop\Temp\c# projek\TextPad\TextPad\obj\Debug\TextPad.csprojResolveAssemblyReference.cache
+C:\Users\Shahril\Desktop\Temp\c# projek\TextPad\TextPad\obj\Debug\TextPad.Form1.resources
+C:\Users\Shahril\Desktop\Temp\c# projek\TextPad\TextPad\obj\Debug\TextPad.Properties.Resources.resources
+C:\Users\Shahril\Desktop\Temp\c# projek\TextPad\TextPad\obj\Debug\TextPad.csproj.GenerateResource.Cache
+C:\Users\Shahril\Desktop\Temp\c# projek\TextPad\TextPad\bin\Debug\TextPad.exe.manifest
+C:\Users\Shahril\Desktop\Temp\c# projek\TextPad\TextPad\bin\Debug\TextPad.application
+C:\Users\Shahril\Desktop\Temp\c# projek\TextPad\TextPad\bin\Debug\TextPad.exe
+C:\Users\Shahril\Desktop\Temp\c# projek\TextPad\TextPad\bin\Debug\TextPad.pdb
+C:\Users\Shahril\Desktop\Temp\c# projek\TextPad\TextPad\obj\Debug\TextPad.exe.manifest
+C:\Users\Shahril\Desktop\Temp\c# projek\TextPad\TextPad\obj\Debug\TextPad.application

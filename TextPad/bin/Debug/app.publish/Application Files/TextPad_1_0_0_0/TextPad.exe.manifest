@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="TextPad.exe" version="1.0.0.0" publicKeyToken="728b8bac01b51965" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="1360354375_34280.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="TextPad" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="TextPad.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TextPad.exe" size="346112">
+      <assemblyIdentity name="TextPad" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>41sXm9BXc1e9wP8TCzRNeUu99Hw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="1360354375_34280.ico" size="158806">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0VA7KX1zr5sN+sWfxtLsjxbLZLE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="TextPad.exe.config" size="167">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>zs0/m2EC7bZkaMXI4CN7NV2RQzg=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Shahril-PC\Shahril" issuerKeyHash="a895dc70439749d0210ed20a2c6f6cad8abcd425" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>FL5Sc+T/R75fOYpWZllsszSPXe0=</DigestValue></Reference></SignedInfo><SignatureValue>RYBMA7DgvPBilo5nsac7naJLQlzGrD7K3Uh2grKdS22C5pVsYwrpIkcF6whMRgHubIUtuftIKmx/P6+Rh68goUAMDfSPdlkK27DL47xSLzAlbhAw9jmFg4D79Q7QONzeT6fio9nxqAGxjjjWrIKcRbPTr4KqNaWpy4vG3jvbT8I=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pLWatJ+j3DI6RcYQxXn9WZZfkOA/b5QJBBfOX2wLXY/Qf9DtPEeTu+oiLfnBc7IVtOWkTBwQJmHVHW1hw8s6YhjF94YuEkPG63hrGYYnC5ep+BVQsHHVqGd9FTkpLIgwjGv+3vMvFEZX7QX3WkdBlPRRG5JOmIqARfR+2IybnHU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ed5d8f34b36c5966568a395fbe47ffe47352be14" Description="" Url=""><as:assemblyIdentity name="TextPad.exe" version="1.0.0.0" publicKeyToken="728b8bac01b51965" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Shahril-PC\Shahril</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>eBDquOrVWQnIESan4e+GBzGLzFI=</DigestValue></Reference></SignedInfo><SignatureValue>H5Dwimrtp68XLgTptJ/kDckeZ/cME34Yq7e1VDDvTpQJvxn5afSh613wA/3mjndHhIRhlfn3+fkPotLxsskW8YuO3jRXwrBl5mfGLagD56tMgVkBnJa4gv//oWXlwtFSqOiiZqr26Z5aWjGN39pbcd3D1nFjDdtifkXH4LMqKJ0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pLWatJ+j3DI6RcYQxXn9WZZfkOA/b5QJBBfOX2wLXY/Qf9DtPEeTu+oiLfnBc7IVtOWkTBwQJmHVHW1hw8s6YhjF94YuEkPG63hrGYYnC5ep+BVQsHHVqGd9FTkpLIgwjGv+3vMvFEZX7QX3WkdBlPRRG5JOmIqARfR+2IybnHU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQcz57kQSWgqlMiuvr7TqiLTANBgkqhkiG9w0BAQUFADAvMS0wKwYDVQQDHiQAUwBoAGEAaAByAGkAbAAtAFAAQwBcAFMAaABhAGgAcgBpAGwwHhcNMTMwMjA4MTY1NTUxWhcNMTQwMjA4MjI1NTUxWjAvMS0wKwYDVQQDHiQAUwBoAGEAaAByAGkAbAAtAFAAQwBcAFMAaABhAGgAcgBpAGwwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKS1mrSfo9wyOkXGEMV5/VmWX5DgP2+UCQQXzl9sC12P0H/Q7TxHk7vqIi35wXOyFbTlpEwcECZh1R1tYcPLOmIYxfeGLhJDxut4axmGJwuXqfgVULBx1ahnfRU5KSyIMIxr/t7zLxRGV+0F91pHQZT0URuSTpiKgEX0ftiMm5x1AgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAT+ECkCe+8GfbKNP8oa2Arf1YJrRJfur8nlu7Sv8E/vuBylBMLo1uT8mwgRg9phgPhi9cin0B55u57eklnUQDjV4454PGSGOlS1SGJFZ+IfsnECge3gVfS5ncUDrNp9h5QwcmS5pzA0bPgEtZjZ6O3Z4EOwwG8Omt5fM5eJBuhMc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
