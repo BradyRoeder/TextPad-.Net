@@ -3,4 +3,4 @@ TextPad-.Net
 
 Simple Text Editor using C# .NET
 
-C# 2012
+Mohd Shahril @ C# 2012
